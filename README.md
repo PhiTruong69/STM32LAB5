@@ -2,7 +2,7 @@
 
 Repo này triển khai bài lab **Flow and Error Control** trong giao tiếp UART trên STM32. Dự án mô phỏng việc truyền nhận dữ liệu giữa STM32 và terminal (Proteus) với cơ chế kiểm soát lỗi đơn giản dựa trên **ACK**, **timeout**, và **retransmit**.
 
-## 📌 Tóm tắt chức năng
+##  Tóm tắt chức năng
 - Giao tiếp **UART 9600 8N1** giữa STM32 ↔ Terminal.  
 - Terminal gửi lệnh điều khiển dạng `!CMD#`.  
 - Hỗ trợ các lệnh:
